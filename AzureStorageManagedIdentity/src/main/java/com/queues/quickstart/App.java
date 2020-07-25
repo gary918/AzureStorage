@@ -31,7 +31,7 @@ import java.time.*;
         
         System.out.println("Creating queue: " + queueName);
 
-        // Instantiate a QueueClient which will be
+        // Instantiate a QueueServiceClient which will be
         // used to create and manipulate the queue
         QueueServiceClient queueServiceClient = new QueueServiceClientBuilder()
         .endpoint(queueServiceURL)
@@ -40,7 +40,6 @@ import java.time.*;
 
         // Create the queue
         QueueClient queueClient = queueServiceClient.createQueue(queueName);
-
 
         System.out.println("\nAdding messages to the queue...");
 
@@ -64,7 +63,6 @@ import java.time.*;
         System.out.println("Deleting queue: " + queueClient.getQueueName());
         queueClient.delete();
         
-        System.out.println("Done");
-        
+        System.out.println("Done");      
     }
 }
