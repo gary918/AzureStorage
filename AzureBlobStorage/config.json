@@ -1,0 +1,33 @@
+[
+{
+	"entity_uuid":"uuidxxxxx",
+	"metadata":[
+		{
+			"attribute":"name",
+			"value":"messi",
+			"data_type":"string",
+			"domain":"core"
+		},{
+			"attribute":"location",
+			"value":"example/data/soccer/",
+			"data_type":"string",
+			"domain":"core"
+		}
+	]
+},{
+	"entity_uuid":"uuid2xxxxxx",
+	"metadata":[
+		{
+			"attribute":"name",
+			"value":"Brad",
+			"data_type":"string",
+			"domain":"core"
+		},{
+			"attribute":"location",
+			"value":"Samples/movies/",
+			"data_type":"string",
+			"domain":"core"
+		}
+	]
+}
+]
